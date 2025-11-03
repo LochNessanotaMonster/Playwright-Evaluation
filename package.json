@@ -1,0 +1,22 @@
+{
+    "name": "playwright-evaluation",
+    "version": "1.0.0",
+    "description": "Data-driven Playwright test suite",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:debug": "playwright test --debug",
+        "test:ui": "playwright test --ui"
+    },
+    "keywords": [
+        "playwright",
+        "testing",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.56.1"
+    }
+}
